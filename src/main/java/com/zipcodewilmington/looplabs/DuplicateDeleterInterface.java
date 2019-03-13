@@ -5,6 +5,6 @@ package com.zipcodewilmington.looplabs;
  * @ATTENTION_TO_STUDENTS You are forbidden from modifying this class.
  */
 public interface DuplicateDeleterInterface<T> {
-    T[] removeDuplicates(int maxNumberOfDuplications);
-    T[] removeDuplicatesExactly(int exactNumberOfDuplications);
+    T[] removeDuplicates(Integer maxNumberOfDuplications);
+    T[] removeDuplicatesExactly(Integer exactNumberOfDuplications);
 }
